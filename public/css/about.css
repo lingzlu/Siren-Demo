@@ -1,0 +1,111 @@
+	@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+.about .nav{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.about li{
+	display: block;
+	width: 190px \1;
+	margin: 0 0 -3px;
+
+}
+.about li > a:hover{
+	background-color: rgba(23,94,224,.1);
+
+}
+body,html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	color: #5a5a5a;
+}
+
+#content-div{
+	margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.mapContainer{
+	width: 100%;
+    height: 100%;
+}
+#map_canvas {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+  right: 0; 
+}
+#directions_panel{
+	border: solid 1px;
+	float: right;
+	width:30%;
+	height: 96%;
+	margin-right: -29%;
+	margin-top: 30px;
+	background-color: white;
+	overflow: auto;
+	position: relative;
+}
+#overMap{
+	height: 100%;
+	width: 100%;
+	z-index: 99;
+}
+.mapNav>li>a{
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ }
+.routeRow:hover{
+	cursor: pointer;
+	background-color: #eee;
+}
+/*.destroyRoute{
+	font-size: 22px;
+	color: #a88a8a;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.destroyRoute:hover{
+	text-shadow: 0 0 1px #000,
+	0 0 10px rgba(200, 40, 40, 0.8);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform: scale(1.3);
+}*/
+.nav.nav-pills.nav-stacked li.active a {
+	background: rgba(23,94,224,1);
+	color: rgb(250,250,250);
+}
+
+.nav.nav-pills.nav-stacked li a {
+	color: rgb(50,50,50);
+}
+.required label:after{
+    content : "*";
+    color   : red;
+}
+
+.aboutUs h2,
+.team h2,
+.contact h2 {
+	font-family: 'Lato', 'sans-serif';
+	font-size: 35px;
+}
+
+.aboutUs p,
+.team p,
+.contact p  {
+	font-family: 'Roboto', serif;
+}

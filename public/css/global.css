@@ -1,0 +1,40 @@
+ @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+ @import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+/*
+font-family: 'Roboto Slab', serif;
+*/
+
+h1{
+  font-family: 'Roboto Slab', serif;
+}
+p{
+  font-family: 'Roboto', serif;
+}
+
+.modal h4,
+.modal h3 {
+	font-family: 'Lato', 'sans-serif';
+}
+
+.modal label,
+.modal input.form-control {
+	font-family: 'Roboto', serif;
+} 
+
+.wrong-input:focus{
+	border: 1px solid red;
+	outline: none;
+}
+.wrong-input {
+	border: 1px solid red;
+}
+
+.right-input:focus{
+	 border: 1px solid green;
+	 outline: none;
+}
+.googft-info-window {
+ 	background-color: yellow 
+}

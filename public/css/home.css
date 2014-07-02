@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,900);
+
+
+#home-jumbo1{
+  color: #000;
+  /*background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../lib/jum1_2.jpg');*/
+  background-image: url('../lib/jum1_4.jpg');
+  /*background-image: url('/lib/jum1.jpg'); */
+  margin-top: -90px;
+  background-size: 1920px;
+  background-position: 0px -200px;
+}
+
+#jum1-text{
+  margin-top: 40px;
+}
+
+#home-jumbo2{
+  text-align: right;
+  color: #000;
+  background-size: 1920px;
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../lib/jum1_3.jpg');
+  /*background-image: url('/lib/jum1.jpg'); */
+  background-position: center;
+}
+
+#home-jumbo3{
+  color: #000;
+  /*background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../lib/jum3.jpg');*/
+  background-image: url('../lib/jum1_5.jpg'); 
+  background-size: 1920px;
+  background-position: 20% 40%;
+}
+
+.home-jumbo h1{
+  font-family: 'Lato', 'sans-serif';
+  font-weight: 900;
+}
+
+.home-jumbo{
+  height:800px;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-family: 'Lato', 'sans-serif';
+}
+.navbar-wrapper{
+  margin-top: 15px;
+  position: relative;
+  z-index: 15;
+
+}
+.carousel {
+  margin-bottom: 20px;
+  margin-top: -90px;
+}
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+.routeRating{
+  background-color: green;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#logo{
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+.ratingBox1{
+  background-color: rgb(71,158,82);
+  color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.ratingBox2{
+  display: inline-block;
+  background-color: rgb(71,158,82);
+  color: white;
+  width: 26px;
+  height: 26px;
+  padding: 4px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 5px; 
+}
+
+.nav-box{
+  display: inline-block;
+  background-color: rgb(71,158,82);
+  color: white;
+  width: 22px;
+  height: 22px;
+  padding: 4px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px; 
+  border-width: 2px;
+}
+
+.red{
+  background-color: rgb(209, 38,38);
+  color: white;
+}
+.test{
+  font-size: 14px;
+}
+.orange{
+  background-color: rgb(239,191,28);
+  color: white;
+}
+table tr[jsselect='steps']:hover{
+  background-color: rgba(23,94,224,.1);
+}

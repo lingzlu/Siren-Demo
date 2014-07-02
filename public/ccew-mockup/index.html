@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>List Mockup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="font-face/stylesheet.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+
+      <style type="text/css">
+      body{
+        font-family: "Exo", sans-serif;
+      }
+
+      #icon{
+        font-size: 108px;
+        font-family: "MeteoconsRegular", sans-serif;
+        text-align: center;
+        background-color: red;
+        color: white;
+        width: 144px;
+        height: 144px;
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 6px;
+      }
+
+      #number{
+        color: red;
+        font-size: 130px;
+        text-align: center;
+        display: inline-block;
+        margin-left: 10px;
+      }
+
+      .location{
+        font-size: 36px;
+        line-height: 28px;
+        color: #555
+      }
+
+      .address{
+        /*padding-left: 2px;*/
+        font-size: 18px;
+        color: #ccc;
+      }
+
+      .start{
+        margin-top: 5px
+      }
+
+      .end{
+        margin-top: 5px
+      }
+
+      .buttons{
+        margin-top: 7px;
+        font-size: 16px;
+      }
+
+      a{
+        color: #bbb;
+      }
+
+      a:hover{
+        color:#666;
+      }
+      #mainrow {
+        margin-top: 50px
+      }
+
+      .crit-routes h4{
+        font-family: "Exo";
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 7px;
+        margin-bottom: -15px;
+      }
+
+      .icon:before{
+        font-family: "MeteoconsRegular", sans-serif;
+        content: attr(data-icon);
+        color: white;
+      }
+
+      .dl-horizontal dt{
+          text-align: right;
+          width: 40px;
+          padding-right: 1em;
+      }
+
+      .dl-horizontal dd{
+          margin-left: 0;
+      }
+
+      .crit-routes{
+        font-size: 18px;
+        color: #888;
+      }
+
+      .more-crit{
+        font-size: 16px;
+        color: #ccc;
+      }
+
+      .route-row{
+        height: 194px;
+        border-left-width: 0;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 2px;
+      }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row" id="mainrow">
+          <div class="col-md-12">
+            <ul class="list-group">
+              <li class="list-group-item route-row">
+                <div class="row">
+                  <div class="col-md-4 dogtag">
+                    <div id="icon">
+                      P
+                    </div>
+                    <div id="number">
+                      82
+                    </div>
+                  </div>
+                  <div class="col-md-4 base-route">
+                    <div class="location start">
+                      <span class="address">
+                        5291 Sleepy Nectar Plaza
+                      </span><br>
+                      Boneyard, MA
+                    </div>
+                    <div class="location end">
+                      <span class="address">
+                        5593 Sunny Gate Gate
+                      </span><br>
+                      Mud Butte, ID
+                    </div>
+                    <div class="buttons">
+                      <a href="#">edit</a>
+                      &nbsp;
+                      <a href="#">delete</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 crit-routes">
+                    <h4>critical routes</h3>
+                    <dl class="dl-horizontal">
+                      <dt>82</dt>
+                      <dd>Colonial Chase</dd>
+                      <dt>74</dt>
+                      <dd>I - 28, MM 274</dd>
+                      <dt>63</dt>
+                      <dd>Green Run</dd>
+                      <dt>58</dt>
+                      <dd>Pants Lane</dd>
+                      <dt>&nbsp;</dt>
+                      <dd class="more-crit"><a href="#">more</a></dd>
+                    </dl>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item route-row">
+                <div class="row">
+                  <div class="col-md-4 dogtag">
+                    <div id="icon">
+                      P
+                    </div>
+                    <div id="number">
+                      82
+                    </div>
+                  </div>
+                  <div class="col-md-4 base-route">
+                    <div class="location start">
+                      <span class="address">
+                        5291 Sleepy Nectar Plaza
+                      </span><br>
+                      Boneyard, MA
+                    </div>
+                    <div class="location end">
+                      <span class="address">
+                        5593 Sunny Gate Gate
+                      </span><br>
+                      Mud Butte, ID
+                    </div>
+                    <div class="buttons">
+                      <a href="#">edit</a>
+                      &nbsp;
+                      <a href="#">delete</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 crit-routes">
+                    <h4>critical routes</h3>
+                    <dl class="dl-horizontal">
+                      <dt>82</dt>
+                      <dd>Colonial Chase</dd>
+                      <dt>74</dt>
+                      <dd>I - 28, MM 274</dd>
+                      <dt>63</dt>
+                      <dd>Green Run</dd>
+                      <dt>58</dt>
+                      <dd>Pants Lane</dd>
+                      <dt>&nbsp;</dt>
+                      <dd class="more-crit"><a href="#">more</a></dd>
+                    </dl>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item route-row">
+                <div class="row">
+                  <div class="col-md-4 dogtag">
+                    <div id="icon">
+                      P
+                    </div>
+                    <div id="number">
+                      82
+                    </div>
+                  </div>
+                  <div class="col-md-4 base-route">
+                    <div class="location start">
+                      <span class="address">
+                        5291 Sleepy Nectar Plaza
+                      </span><br>
+                      Boneyard, MA
+                    </div>
+                    <div class="location end">
+                      <span class="address">
+                        5593 Sunny Gate Gate
+                      </span><br>
+                      Mud Butte, ID
+                    </div>
+                    <div class="buttons">
+                      <a href="#">edit</a>
+                      &nbsp;
+                      <a href="#">delete</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 crit-routes">
+                    <h4>critical routes</h3>
+                    <dl class="dl-horizontal">
+                      <dt>82</dt>
+                      <dd>Colonial Chase</dd>
+                      <dt>74</dt>
+                      <dd>I - 28, MM 274</dd>
+                      <dt>63</dt>
+                      <dd>Green Run</dd>
+                      <dt>58</dt>
+                      <dd>Pants Lane</dd>
+                      <dt>&nbsp;</dt>
+                      <dd class="more-crit"><a href="#">more</a></dd>
+                    </dl>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+    </body>
+    </html>
